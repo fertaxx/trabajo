@@ -1,0 +1,49 @@
+.navbar {
+  background: #2563eb; /* azul moderno */
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+/* Logo */
+.navbar-logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Links */
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.navbar-links li {
+  cursor: pointer;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.navbar-links li:hover {
+  opacity: 0.8;
+}
+
+/* Carrito */
+.navbar-cart {
+  background: white;
+  color: #2563eb;
+  padding: 0.4rem 0.9rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.navbar-cart:hover {
+  background: #f3f4f6;
+  transform: scale(1.05);
+}
